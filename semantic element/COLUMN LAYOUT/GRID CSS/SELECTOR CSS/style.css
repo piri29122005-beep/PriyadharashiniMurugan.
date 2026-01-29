@@ -1,0 +1,16 @@
+h1{
+    font: 35px 'Roboto', sans-serif;                                                                                                                                                                                                                                                                              
+}
+p{
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+}
+p span{
+    font-weight: bold;
+}
+.intro{
+    background-color: brown;
+}
+.text-white{
+    color: beige;
+}

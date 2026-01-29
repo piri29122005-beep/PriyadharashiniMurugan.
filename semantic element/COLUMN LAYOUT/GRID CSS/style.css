@@ -1,0 +1,41 @@
+body{
+    margin: 20px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,100px);
+    grid-gap: 10px 20px;
+    grid-auto-rows: 100px;
+
+
+    grid-template-areas: 
+    "header header header"
+    "aside content content"
+    "footer footer footer";
+}
+.box1{
+    grid-area: header;
+}
+.box2{
+    grid-area: aside;
+}
+
+
+.box3{
+    grid-area: content;
+}
+
+
+.box4{
+    grid-area: footer;
+}
+
+
+.box{
+    border: 1px solid black;
+    background-color: tomato;
+
+
+}
